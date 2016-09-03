@@ -5,7 +5,7 @@ An extension for the xonsh shell to use thefuck.
 
 ```
 pip install xontrib-thefuck
-``
+```
 
 # Configuration
 Either type the following or add it to your xonshrc
