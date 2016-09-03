@@ -1,5 +1,5 @@
 # xontrib-thefuck
-An extension for the xonsh shell to use thefuck.
+An extension for the [xonsh](http://xon.sh/) shell to use [thefuck](https://github.com/nvbn/thefuck).
 
 # Installation
 
