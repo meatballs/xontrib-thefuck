@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='xontrib-thefuck',
-    version='0.3.4',
+    version='0.3.5',
     author='Owen Campbell',
     description="Xonsh extension for thefuck",
     packages=['xontrib'],
