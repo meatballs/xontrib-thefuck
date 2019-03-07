@@ -1,4 +1,4 @@
-from builtins import aliases, __xonsh_history__, evalx
+from builtins import aliases, __xonsh__.history, evalx
 
 
 def _new_command(args, stdin=None):
