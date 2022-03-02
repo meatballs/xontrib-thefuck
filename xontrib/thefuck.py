@@ -2,7 +2,10 @@ from builtins import aliases, __xonsh__, evalx
 
 
 def _new_command(args, stdin=None):
-    last_command = __xonsh__.history[-1].cmd.strip()
+    try:
+        last_command = __xonsh__.history[-1].cmd.strip()
+    except IndexError:
+        return
 
     execx('thefuck {}'.format(last_command))
 
